@@ -25,5 +25,6 @@ export function normalizeServerErrors(exception) {
   else {
     errors.__form = <string>rawErrors
   }
+  console.log(errors)
   return errors
 }
